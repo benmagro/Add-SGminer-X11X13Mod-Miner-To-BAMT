@@ -22,7 +22,7 @@ This is script will install an optimised x11 and x13 algorithm miner within BAMT
 ```bash
 git clone https://github.com/benmagro/Add-SGminer-X11X13Mod-Miner-To-BAMT.git
 cd Add-SGminer-X11X13Mod-Miner-To-BAMT/
-./x11.sh
+./x11x13.sh
 ```
 
 Then review your bamt.conf and your sgminer-x11mod.conf and sgminer-x13mod.conf
