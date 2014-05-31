@@ -1,0 +1,24 @@
+--- example.conf	2014-05-31 09:51:00.000000000 +0000
++++ x13.conf	2014-05-31 12:39:06.000000000 +0000
+@@ -19,7 +19,7 @@
+ "intensity" : "d,9,9,9",
+ "xintensity" : "0,0,0",
+ "rawintensity" : "0,0,0",
+-"kernel" : "ckolivas,ckolivas,ckolivas",
++"kernel" : "x13mod",
+ "lookup-gap" : "2,2,2",
+ "thread-concurrency" : "15508,15508,15508",
+ "shaders" : "0,0,0",
+@@ -34,9 +34,9 @@
+ "temp-overheat" : "85,85,85,85",
+ "temp-target" : "75,75,75,75",
+ 
+-"api-listen" : false,
+-"api-mcast-port" : "4028",
+-"api-port" : "4028",
++"api-listen": true,
++"api-port": "4028",
++"api-allow": "W:127.0.0.1",
+ 
+ "auto-fan" : true,
+ "auto-gpu" : true,
