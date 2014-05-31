@@ -32,7 +32,7 @@ patch /etc/bamt/bamt.conf <<.
 patch /opt/bamt/common.pl <<.
 1477a1478,1480
 >       } elsif (\${\$conf}{'settings'}{'miner-sgminer-x11X13mod'}) {
->         \$cmd = "cd /opt/miners/sgminer-x11X13mod/;/usr/bin/screen -d -m -S sgminer-x11 /opt/miners/sgminer-x11X13mod/sgminer \$args";
+>         \$cmd = "cd /opt/miners/sgminer-x11X13mod/;/usr/bin/screen -d -m -S sgminer-x11X13 /opt/miners/sgminer-x11X13mod/sgminer \$args";
 >         \$miner = "sgminer-x11X13";
 .
 cd /etc/bamt/
