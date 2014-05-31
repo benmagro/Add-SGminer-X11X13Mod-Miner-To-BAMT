@@ -43,6 +43,7 @@ patch /etc/bamt/sgminer-x11mod.conf < x11.patch
 patch /etc/bamt/sgminer-x13mod.conf < x13.patch
 rm x11.patch
 rm x13.patch
-echo 'X11Mod Miner Installed.'
+echo 'X11 X13 Mod Miner Installed.'
 echo 'Please review your /etc/bamt/bamt.conf to enable.'
 echo 'Configure /etc/bamt/sgminer-x11mod.conf with pool'
+echo 'Configure /etc/bamt/sgminer-x13mod.conf with pool'
