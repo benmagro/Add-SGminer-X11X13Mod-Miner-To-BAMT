@@ -54,7 +54,7 @@ Then review your bamt.conf and your sgminer-x11mod.conf and sgminer-x13mod.conf
 "gpu-engine" : "1150",
 "gpu-memclock" : "1500",
 "gpu-powertune" : "20",
-"gpu-vddc" : "1.150,1.150,1.150,1.150,1.150",
+"gpu-vddc" : "1.150",
 "gpu-threads" : "2"
 
 #Donate
